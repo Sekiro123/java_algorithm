@@ -1,4 +1,4 @@
-package leetcode.leetcode383_赎金信;
+package leetcode.leetcode383_赎金信_Hashmap实例;
 
 import java.util.HashMap;
 import java.util.Map;
