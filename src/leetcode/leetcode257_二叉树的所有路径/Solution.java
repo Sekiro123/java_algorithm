@@ -4,8 +4,9 @@ import leetcode.utils.TreeNode;
 import org.junit.Test;
 
 import java.util.*;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.*;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
@@ -43,6 +44,7 @@ public class Solution {
         root.right = new TreeNode(3);
         root.left.right = new TreeNode(5);
         binaryTreePaths(root);
+        new ReentrantLock();
     }
 
 }
